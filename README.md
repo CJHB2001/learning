@@ -1,9 +1,10 @@
 # Mega City Cab Service Web Application
 
-This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application**, which handles user authentication, Booking management, cabs and drive managment, , and more for cab service operations.
+This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application**, which handles user authentication, booking management, cabs and driver management, and more for cab service operations.
 
 ## Technologies Used
 
+- **Java 17**: Programming language used for backend development.
 - **Eclipse IDE**: Integrated development environment for Java development.
 - **Maven**: Project management and dependency management tool.
 - **Tomcat 9**: Servlet container to run the web application.
@@ -12,7 +13,7 @@ This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application
 - **Font Awesome & Boxicon**: Custom fonts and icons.
 - **JUnit 5**: Unit testing framework.
 - **Toastr**: For displaying non-blocking notifications.
-  
+
 ## Installation and Setup
 
 To set up the project locally using **Eclipse IDE**, follow these steps:
@@ -28,13 +29,13 @@ To set up the project locally using **Eclipse IDE**, follow these steps:
    - Browse to the location where the project was cloned, select the root folder, and click **Finish**.
 
 3. **Set up MySQL Database**:
-   - Create a MySQL database, e.g., ``megacitycab``.
-   - Open the file `src\main\java\com\util\DatabaseUtil.java` in Eclipse.
+   - Create a MySQL database, e.g., `megacitycab`.
+   - Open the file `src/main/java/com/util/DatabaseUtil.java` in Eclipse.
    - Update the following properties with your MySQL credentials:
-     ```properties
-      private static final String URL = "jdbc:mysql://localhost:3306/megacitycab";
-	    private static final String USER = "Your user name";
-	    private static final String PASSWORD = "Your password";
+     ```java
+     private static final String URL = "jdbc:mysql://localhost:3306/megacitycab";
+     private static final String USER = "Your user name";
+     private static final String PASSWORD = "Your password";
      ```
 
 4. **Configure Tomcat in Eclipse**:
@@ -60,17 +61,16 @@ You can also run all tests via Maven:
 mvn test
 ```
 
-
 ## Version Control and GitHub Integration
 
 This project utilizes **Git** for version control and **GitHub** for repository management. Here's how version control practices are applied:
 
 - **Multiple commits**: Frequent commits with detailed messages documenting the addition of features, bug fixes, and improvements.
-- **Branching**: The project uses tags to mark key milestones, such as `v1.0` for the initial release and subsequent versions.
-- **charry piking**: The project uses tags to mark key milestones, such as `v1.0` for the initial release and subsequent versions.
+- **Branching**: The project follows a structured branching strategy for development and releases.
+- **Cherry-picking**: Selective commits from different branches are used when necessary.
 - **Tags**: The project uses tags to mark key milestones, such as `v1.0` for the initial release and subsequent versions.
-- **Releases**: The initial release was done after the project was finalized for deployment, and further releases will continue as new features are added.
-- **Dependabot Alerts**: GitHub's Dependabot was integrated to detect security vulnerabilities. Various issues related to dependencies have been identified and resolved through this.
+- **Releases**: New features and fixes are released incrementally.
+- **Dependabot Alerts**: GitHub's Dependabot is integrated to detect security vulnerabilities and manage dependencies.
 
 ## Folder Structure
 
@@ -82,11 +82,11 @@ This project utilizes **Git** for version control and **GitHub** for repository 
   - `model`: Entity classes representing database tables.
   - `util`: Database connection manager.
 - **src/main/webapp/WEB-INF/view**: Contains views related to the project.
-- **src/main/webapp/AdminArea**: All the admin related images ,CSS,js and jsp file.
-- **src/main/webapp/DriverArea**:  All the driver related images ,CSS,js and jsp filec.
-- **src/main/webapp/PublicArea**: All the customer related images ,CSS,js and jsp filec.
-- **src/test/java**: Contains unit tests written with **JUnit**. (this folder avalabel in staging/test branch only)
-  
+- **src/main/webapp/AdminArea**: Admin-related assets (images, CSS, JS, JSP files).
+- **src/main/webapp/DriverArea**: Driver-related assets (images, CSS, JS, JSP files).
+- **src/main/webapp/PublicArea**: Customer-related assets (images, CSS, JS, JSP files).
+- **src/test/java**: Contains unit tests written with **JUnit** (available in staging/test branch only).
+
 ## Running Tests
 
 To run tests:
@@ -102,18 +102,22 @@ Test classes include:
 - `BookingDAO`
 - `UserDAO`
 - `CustomerModel`
-- `CustomerModel`
 - `UserModel`
 - `BlogModel`
-`BookingService`
-`BlogService`
-`CustomerLoginServiet`
-`CustomerRegistrationServlet`
-`BlogServiet`
-`CustomerLoginServiet`
+- `BookingService`
+- `BlogService`
+- `CustomerLoginServlet`
+- `CustomerRegistrationServlet`
+- `BlogServlet`
+
+## Images
+
+![Mega City Cab Homepage](images/homepage.png)
+
+![Booking Management Page](images/booking.png)
+
+![Admin Dashboard](images/admin_dashboard.png)
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
