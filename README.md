@@ -1,6 +1,6 @@
 # 🚕 Mega City Cab Service Web Application
 
-![Mega City Cab Logo](/api/placeholder/800/400)
+![Mega City Cab Logo](/logoMega.png)
 
 This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application**, which handles user authentication, booking management, cabs and driver management, and more for comprehensive cab service operations.
 
