@@ -19,7 +19,7 @@ This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
   <div style="width: 48%; margin-bottom: 20px;">
-    <img src="/gla.jpg" alt="Dashboard View" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/gla.jpg" alt="Dashboard View" style="width: 100% ;height="100px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <p align="center"><strong>Dashboard View</strong></p>
   </div>
   <div style="width: 48%; margin-bottom: 20px;">
