@@ -6,7 +6,7 @@ This repository contains the Maven-based **Mega City Cab Service Web Application
 
 ### Customer Panel
 ![Customer Dashboard](download (1).jpeg)
-![Booking Interface](/images/customer-booking.png)
+![Booking Interface](/gla.jpg)
 ![Ride History](/images/customer-history.png)
 
 ### Admin Panel
