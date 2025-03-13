@@ -1,13 +1,8 @@
 # Mega City Cab Service Web Application
 
-![GitHub](https://img.shields.io/github/license/CJHB2001/MegaCityCab)
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Tomcat](https://img.shields.io/badge/Tomcat-9-red)
-![MySQL](https://img.shields.io/badge/MySQL-Latest-blue)
+This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application**, which handles user authentication, booking management, cabs and driver management, and more for cab service operations.
 
-This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application**, a comprehensive solution for cab service operations including user authentication, booking management, and driver coordination.
-
-## 🚕 Application Preview
+## Images
 
 <div align="center">
   <table>
@@ -22,100 +17,82 @@ This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application
   </table>
 </div>
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-| Category | Technologies |
-|----------|-------------|
-| **Backend** | Java 17, Maven, Tomcat 9 |
-| **Database** | MySQL |
-| **Frontend** | Bootstrap 5, Font Awesome, Boxicon |
-| **Development** | Eclipse IDE |
-| **Testing** | JUnit 5 |
-| **UI Components** | Toastr (for notifications) |
+- **Java 17**: Programming language used for backend development.
+- **Eclipse IDE**: Integrated development environment for Java development.
+- **Maven**: Project management and dependency management tool.
+- **Tomcat 9**: Servlet container to run the web application.
+- **MySQL**: Database for storing customer, orders, and reservation data.
+- **Bootstrap 5**: Frontend framework for building responsive UIs.
+- **Font Awesome & Boxicon**: Custom fonts and icons.
+- **JUnit 5**: Unit testing framework.
+- **Toastr**: For displaying non-blocking notifications.
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
-### Prerequisites
-- Java 17 JDK
-- Eclipse IDE
-- Apache Tomcat 9
-- MySQL Database
-- Git
+To set up the project locally using **Eclipse IDE**, follow these steps:
 
-### Step-by-Step Setup Guide
+### 1. Clone the Repository
 
-#### 1. Clone the Repository
+- Open Eclipse IDE.
+- Go to **File > Import > Git > Projects from Git > Clone URI**.
+- Enter the repository URL: `https://github.com/CJHB2001/MegaCityCab`.
+- Click **Next** and complete the clone process.
 
-```bash
-# Using Eclipse
-File > Import > Git > Projects from Git > Clone URI
-URI: https://github.com/CJHB2001/MegaCityCab
-```
+### 2. Import the Maven Project
 
-#### 2. Import the Maven Project
+- After cloning, go to **File > Import > Maven > Existing Maven Projects**.
+- Browse to the location where the project was cloned, select the root folder, and click **Finish**.
 
-```bash
-# In Eclipse
-File > Import > Maven > Existing Maven Projects
-# Select the cloned repository root folder
-```
+### 3. Set up MySQL Database
 
-#### 3. Configure Database
+- Create a MySQL database, e.g., `megacitycab`.
+- Open the file `src/main/java/com/util/DatabaseUtil.java` in Eclipse.
+- Update the following properties with your MySQL credentials:
 
-- Create a MySQL database named `megacitycab`
-- Update database credentials in `src/main/java/com/util/DatabaseUtil.java`:
+  ```java
+  private static final String URL = "jdbc:mysql://localhost:3306/megacitycab";
+  private static final String USER = "Your user name";
+  private static final String PASSWORD = "Your password";
+  ```
 
-```java
-private static final String URL = "jdbc:mysql://localhost:3306/megacitycab";
-private static final String USER = "Your user name";
-private static final String PASSWORD = "Your password";
-```
+### 4. Configure Tomcat in Eclipse
 
-#### 4. Configure Tomcat Server
+- Go to **Window > Show View > Servers**.
+- Right-click in the **Servers** tab and select **New > Server**.
+- Choose **Apache Tomcat v9.0** and point to your Tomcat installation directory.
+- Add the project to the server and click **Finish**.
 
-```bash
-# In Eclipse
-Window > Show View > Servers
-Right-click > New > Server
-Select Apache Tomcat v9.0
-```
+### 5. Run the Application
 
-#### 5. Launch the Application
+- Right-click on the project, select **Run As > Run on Server**.
+- The application should now be running at `http://localhost:8080`.
 
-```bash
-# Right-click on project
-Run As > Run on Server
-# Access at http://localhost:8080
-```
+## Running Unit Tests
 
-## 🧪 Running Unit Tests
+To run the unit tests using **JUnit 5** in Eclipse:
 
-### Using Eclipse
+1. **Right-click on the project folder** or individual test class (e.g., `CustomerRegistrationServlet`, `CustomerDAO`).
+2. Select **Run As > JUnit Test**.
+3. Eclipse will display the test results in the **JUnit** view.
 
-```bash
-# For all tests
-Right-click project > Run As > JUnit Test
-
-# For specific test class
-Right-click test class > Run As > JUnit Test
-```
-
-### Using Maven
+You can also run all tests via Maven:
 
 ```bash
 mvn test
 ```
 
-## 📊 Version Control and GitHub Integration
+## Version Control and GitHub Integration
 
-This project uses Git and GitHub with the following practices:
+This project utilizes **Git** for version control and **GitHub** for repository management. Here's how version control practices are applied:
 
-- ✅ **Commit Frequency**: Regular commits with detailed messages
-- 🌿 **Branching Strategy**: Structured approach for development and releases
-- 🍒 **Cherry-picking**: Selective commit integration when needed
-- 🏷️ **Tagging**: Version tags for key milestones (e.g., `v1.0`)
-- 📦 **Releases**: Incremental feature and fix releases
-- 🔒 **Security**: Dependabot integration for vulnerability detection
+- **Multiple commits**: Frequent commits with detailed messages documenting the addition of features, bug fixes, and improvements.
+- **Branching**: The project follows a structured branching strategy for development and releases.
+- **Cherry-picking**: Selective commits from different branches are used when necessary.
+- **Tags**: The project uses tags to mark key milestones, such as `v1.0` for the initial release and subsequent versions.
+- **Releases**: New features and fixes are released incrementally.
+- **Dependabot Alerts**: GitHub's Dependabot is integrated to detect security vulnerabilities and manage dependencies.
 
 ## Folder Structure
 
@@ -156,6 +133,6 @@ Test classes include:
 - `CustomerRegistrationServlet`
 - `BlogServlet`
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
