@@ -6,10 +6,10 @@ This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application
 
 ![Home Page](/Documents/Images/HomePage.png)
 
-![Booking Management Page](images/booking.png)
+![Home Page](/Documents/Images/AdminDriverLoin.png)
+![Home Page](/Documents/Images/AdminDasboard.png)
 
-![Admin Dashboard](images/admin_dashboard.png)
-
+![Home Page](/Documents/Images/DriverDashboard.png)
 ## Technologies Used
 
 - **Java 17**: Programming language used for backend development.
