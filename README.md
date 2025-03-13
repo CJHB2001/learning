@@ -96,21 +96,18 @@ This project utilizes **Git** for version control and **GitHub** for repository 
 
 ## Folder Structure
 
-```
-mega-city-cab-service/
-│── src/main/java/com/res
-│   ├── controller/      # Servlets for all users
-│   ├── service/         # Business logic layer
-│   ├── dao/             # Database interaction layer
-│   ├── enums/           # Enums for application
-│   ├── model/           # Entity classes representing database tables
-│   ├── util/            # Database connection manager
-│── src/main/webapp/WEB-INF/view       # Contains views related to the project
-│── src/main/webapp/AdminArea          # Admin-related files (images, CSS, JS, JSP files)
-│── src/main/webapp/DriverArea         # Driver-related files (images, CSS, JS, JSP files)
-│── src/main/webapp/PublicArea         # Customer-related files (images, CSS, JS, JSP files)
-│── src/test/java                      # Contains unit tests (staging/test branch only)
-```
+- **src/main/java/com/res**: Contains the Java source code
+  - `controller`: Servlets for all users.
+  - `service`: Business logic layer.
+  - `dao`: Database interaction layer.
+  - `enums`: Enums for application.
+  - `model`: Entity classes representing database tables.
+  - `util`: Database connection manager.
+- **src/main/webapp/WEB-INF/view**: Contains views related to the project.
+- **src/main/webapp/AdminArea**: Admin-related assets (images, CSS, JS, JSP files).
+- **src/main/webapp/DriverArea**: Driver-related assets (images, CSS, JS, JSP files).
+- **src/main/webapp/PublicArea**: Customer-related assets (images, CSS, JS, JSP files).
+- **src/test/java**: Contains unit tests written with **JUnit** (available in staging/test branch only).
 
 ## Running Tests
 
