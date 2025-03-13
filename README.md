@@ -4,7 +4,7 @@ This repository contains the Maven-based **MEGA CITY CAB SERVICE Web Application
 ## Images
 
 
-![Home Page](gla.jpg){height=300}
+![Home Page](/Documents/Images/HomePage.png)
 
 ![Booking Management Page](images/booking.png)
 
