@@ -90,9 +90,9 @@ This project utilizes **Git** for version control and **GitHub** for repository 
   - `model`: Entity classes representing database tables.
   - `util`: Database connection manager.
 - **src/main/webapp/WEB-INF/view**: Contains views related to the project.
-- **src/main/webapp/AdminArea**: Admin-related assets (images, CSS, JS, JSP files).
-- **src/main/webapp/DriverArea**: Driver-related assets (images, CSS, JS, JSP files).
-- **src/main/webapp/PublicArea**: Customer-related assets (images, CSS, JS, JSP files).
+- **src/main/webapp/AdminArea**: Admin-related file (images, CSS, JS, JSP files).
+- **src/main/webapp/DriverArea**: Driver-related file (images, CSS, JS, JSP files).
+- **src/main/webapp/PublicArea**: Customer-related flie (images, CSS, JS, JSP files).
 - **src/test/java**: Contains unit tests written with **JUnit** (available in staging/test branch only).
 
 ## Running Tests
