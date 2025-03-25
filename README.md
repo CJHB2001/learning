@@ -1,7 +1,7 @@
 # Ayur Essence
 A comprehensive Ayurvedic web application built using Laravel 10.
 
-#Images
+# Images
 
 <div align="center">
   <table>
