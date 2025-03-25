@@ -81,10 +81,13 @@ A comprehensive Ayurvedic web application built using Laravel 10.
    ```
 6. Run migrations and seed data:
    ```bash
-   php artisan migrate 
+   php artisan migrate
+   
    ```
 7. Start the Laravel development server:
    ```bash
    php artisan serve
    ```
+## License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
