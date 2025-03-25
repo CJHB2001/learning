@@ -1,4 +1,4 @@
-# Ayur Essence
+# Ayur Essence AI Base Web Application
 A comprehensive Ayurvedic web application built using Laravel 10.
 
 # Images
