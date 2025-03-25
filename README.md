@@ -1,5 +1,28 @@
 # Ayur Essence
-A comprehensive Ayurvedic web application built using Laravel 11 and React.
+A comprehensive Ayurvedic web application built using Laravel 10.
+
+#Images
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="/Documents/Images/HomePage1.png" width="300" alt="Home Page"></td>
+      <td><img src="/Documents/Images/HomePage2.png" width="300" alt="Admin Driver Login"></td>
+      <td><img src="/Documents/Images/BookingPage.png" width="300" alt="Admin Dashboard"></td>
+    </tr>
+    <tr>
+      <td><img src="/Documents/Images/AdminDasboard.png" width="300" alt="Driver Dashboard"></td>
+        <td><img src="/Documents/Images/AdminDashboard2.png" width="300" alt="Driver Dashboard"></td>
+        <td><img src="/Documents/Images/BookingAdmin.png" width="300" alt="Driver Dashboard"></td>
+    </tr>
+      <tr>
+      <td><img src="/Documents/Images/AdminDriverLoin.png" width="300" alt="Driver Dashboard"></td>
+        <td><img src="/Documents/Images/d1.png" width="300" alt="Driver Dashboard"></td>
+        <td><img src="/Documents/Images/d2.png" width="300" alt="Driver Dashboard"></td>
+    </tr>
+  </table>
+</div>
+
 
 ## Features
 ### Admin Features
