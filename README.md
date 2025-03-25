@@ -61,7 +61,7 @@ A comprehensive Ayurvedic web application built using Laravel 10.
 ## Installation
 1. Clone the project:
    ```bash
-   git clone <repository-url>
+   git clone < https://github.com/madhuekanayake/AyurEssence>
    ```
 2. Navigate to the project's root directory:
    ```bash
