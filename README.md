@@ -77,27 +77,14 @@ A comprehensive Ayurvedic web application built using Laravel 10.
    ```
 5. Set application key:
    ```bash
-   php artisan key:generate --ansi
+   php artisan key:generate 
    ```
 6. Run migrations and seed data:
    ```bash
-   php artisan migrate --seed
+   php artisan migrate 
    ```
 7. Start the Laravel development server:
    ```bash
    php artisan serve
    ```
 
-## Images
-Below are sample images of Ayur Essence:
-
-| Image 1 | Image 2 | Image 3 |
-|---------|---------|---------|
-| ![Image 1](path/to/image1.jpg) | ![Image 2](path/to/image2.jpg) | ![Image 3](path/to/image3.jpg) |
-
-| Image 4 | Image 5 | Image 6 |
-|---------|---------|---------|
-| ![Image 4](path/to/image4.jpg) | ![Image 5](path/to/image5.jpg) | ![Image 6](path/to/image6.jpg) |
-
-## Demo
-Coming soon...
